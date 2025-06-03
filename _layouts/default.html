@@ -1,0 +1,71 @@
+---
+---
+
+<!doctype html>
+{% include copyright.html %}
+<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached masthead.html %}
+
+<!-- Here we have our image -->
+    
+<style>
+      /* Default Styles */
+      .hero-section {
+        background-image: url('{{ "/assets/images/G3_zoom2.png" | relative_url }}');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 50vh; /* Default height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    
+      /* For Smaller Screens (Mobile) */
+      @media (max-width: 768px) {
+        .hero-section {
+          height: 20vh; /* Reduced height for smaller screens */
+        }
+    
+        .hero-section h1 {
+          font-size: 1rem; /* Make the title smaller on mobile */
+        }
+      }
+    </style>
+
+    <div class="hero-section">
+      <h1 style="color: white; font-size: 3rem; z-index: 10;"></h1>
+    </div>
+
+    
+<!-- other things -->
+    
+    <div class="initial-content">
+      {{ content }}
+      {% include after-content.html %}
+    </div>
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>
