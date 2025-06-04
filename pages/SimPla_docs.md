@@ -5,6 +5,10 @@ math: true
 permalink: /SimPla/
 ---
 
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # SimPla - Simulated Plasma
 
 SimPla is a tool for simulating plasma behavour using a single-fluid model in a tokamak, for example to solve a plasma equilibrium problem.
