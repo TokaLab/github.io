@@ -1,13 +1,13 @@
 ---
 layout: splash
-title: SDiag - Simulated Diagnostics
+title: SynDiag - Synthetic Diagnostics
 math: true
-permalink: /SDiag/
+permalink: /SynDiag/
 ---
 
-# SDiag - Simulated Diagnostics
+# SynDiag - Synthetic Diagnostics
 
-SDiag is a tool for simulating diagnostics given a reference plasma scenario and a geometry configuration. You can use it with the SimPla output or with a plasma configuration which is in SimPla format.
+SynDiag is a tool for simulating diagnostics given a reference plasma scenario and a geometry configuration. You can use it with the SimPla output or with a plasma configuration which is in SimPla format.
 
 ## MATLAB Guide
 
