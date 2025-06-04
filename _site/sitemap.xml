@@ -4,9 +4,6 @@
 <loc>http://localhost:4000/Documentation/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/Fourier-Transform/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/Publications/</loc>
 </url>
 <url>
@@ -14,6 +11,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/SimPla/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/pages/VirtualLab/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/preview/</loc>
