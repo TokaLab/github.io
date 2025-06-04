@@ -11,7 +11,7 @@ layout: default
 
 title: VirtualLab
 permalink: /VirtualLab/
-header: This page is under construction
+header: "This page is under construction"
   teaser: 
   caption: "This is the teaser caption."
   actions:
