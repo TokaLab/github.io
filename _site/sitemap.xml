@@ -16,13 +16,7 @@
 <loc>http://localhost:4000/VirtualLab/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/preview/toka2/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/preview/toka3/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/preview/toka1/</loc>
+<loc>http://localhost:4000/preview/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>

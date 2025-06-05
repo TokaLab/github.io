@@ -24,7 +24,7 @@ description              : "Here we will put the short description of our projec
 url                      : "https://github.com/TokaLab"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/G3.png"
+teaser                   : "/assets/images/Banner2_opzione1.png"
 logo                     : "/assets/images/Logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
