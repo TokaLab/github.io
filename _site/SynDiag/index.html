@@ -1,0 +1,289 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>SynDiag - Synthetic Diagnostics -</title>
+<meta name="description" content="Here we will put the short description of our project">
+
+
+  <meta name="author" content="Here we can put the authors">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="">
+<meta property="og:title" content="SynDiag - Synthetic Diagnostics">
+<meta property="og:url" content="http://localhost:4000/SynDiag/">
+
+
+  <meta property="og:description" content="Here we will put the short description of our project">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/SynDiag/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+  </head>
+
+  <body class="layout--splash">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/Logo.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/Documentation/"
+                
+                
+              >Documentation</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/Publications/"
+                
+                
+              >Publications</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+<!-- Here we have our image -->
+    
+<style>
+      /* Default Styles */
+      .hero-section {
+        background-image: url('/assets/images/G3_zoom2.png');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 50vh; /* Default height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    
+      /* For Smaller Screens (Mobile) */
+      @media (max-width: 768px) {
+        .hero-section {
+          height: 20vh; /* Reduced height for smaller screens */
+        }
+    
+        .hero-section h1 {
+          font-size: 1rem; /* Make the title smaller on mobile */
+        }
+      }
+    </style>
+
+    <div class="hero-section">
+      <h1 style="color: white; font-size: 3rem; z-index: 10;"></h1>
+    </div>
+
+    
+<!-- other things -->
+    
+    <div class="initial-content">
+      
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="SynDiag - Synthetic Diagnostics">
+    
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="syndiag---synthetic-diagnostics">SynDiag - Synthetic Diagnostics</h1>
+
+<p>SynDiag is a tool for simulating diagnostics given a reference plasma scenario and a geometry configuration. You can use it with the SimPla output or with a plasma configuration which is in SimPla format.</p>
+
+<h2 id="matlab-guide">MATLAB Guide</h2>
+
+<p>In case you need to simulate diagnostics in a plasma scenario, please open <strong>Main_Diagnostics.m</strong>.
+The code “Main_Diagnostics.mat” allows for the design of the diagnostics setup. The current version includes the design of magnetic coils (pick-up, flux loops, and saddle loops), Thomson Scattering, and Interferometer-Polarimeter. 
+The standard configuration is shown in Figure 1.</p>
+
+<p align="center">
+  <img src="/assets/images/Ex0.png" alt="Standard TokaLab Diagnostics setup" width="60%" />
+</p>
+
+<p>The configuration provided by TokaLab is denoted as “Configuration 1.” It is characterized by the quantities shown in Figure 1, where each measurement is Gaussian distributed with noise having a standard deviation of 10% of the standard deviation of measurements of the same kind (but ideal values are always accessible in the “ideal” substructure of each diagnostic structure). Each user can add their own configuration by varying the number of diagnostics, their location, and their measurement uncertainty.
+In this document, a brief comment on the code is first provided, and the TokaLab configuration for diagnostics is shown. Examples are then presented to demonstrate how to change the hyperparameters.
+It is first necessary to load an equilibrium (available through the execution of Main_Equilibrium.mat, for which users can find documentation in the dedicated section) and the file containing information on the geometry. For the provided configuration, magnetic diagnostics data are loaded through MATLAB files. These files contain information about the location of the coils and, for pick-up coils, information on their unit vector describing the coils’ orientation.
+Each diagnostic is then treated within a specific code section. Users can change the location or number of diagnostics by loading a file containing the desired information of this type and then adding another else if condition (with configuration == i, i &gt; 1), copying the content of the first case and modifying the noise level, for example.
+For Thomson Scattering and Interferometer-Polarimeter, no file needs to be loaded before running the code. However, information related to the position of the diagnostics can be changed in the ThomsonScattering.m or InterferometerPolarimeter.m functions in the very first lines.
+All the following examples relate to the use of noisy measurements.</p>
+
+<h3 id="example-1-modifying-pick-up-coils-location-an-dorientation">EXAMPLE 1: Modifying Pick Up Coils location an dorientation</h3>
+
+<p>Modifying Pick-Up coils location and orientation can be done by loading a file that simply contains information on R, z, and the poloidal angle in the same format provided through the standard configuration setting of the pick-up coils (a horizontal vector for R, a horizontal vector for Z, and a 3 x i matrix, with i = number of pick-up coils, indicating the components of the unit vector describing the coil orientation). In our case we used a MATLAB file, but a .txt or other format can be used by just modifying the loading function in line 6 of PickUpCoils.m (and the same for FluxLoops.m and SaddleLoops.m). An example of the new configuration obtained is shown in Figure 2.</p>
+
+<p align="center">
+  <img src="/assets/images/Ex1_M.png" alt="New configuration of Pick-up Coils setup. It has been changed the position and orientation of each coil. On the right, measurement values are reported" width="40%" />
+</p>
+
+<h3 id="example-2-modelling-a-vertical-thomson-scattering">EXAMPLE 2: Modelling a vertical Thomson Scattering</h3>
+
+<p>In this case, a vertical Thomson Scattering has been simulated by simply changing the reference of D_TS.config.type (set, for example, to 2 in line 59 in this case) and adding an elseif condition in the ThomsonScattering.m function where it is possible to set new values for R and Z.
+The results obtained for the selected coordinates are shown in Figure 3.</p>
+
+<p align="center">
+  <img src="/assets/images/Ex2_TS.png" alt="Vertical Configuration of the Thomson Scattering" width="40%" />
+</p>
+
+<h3 id="example-3-changing-laser-wavelength-in-interferometer-polarimeter">EXAMPLE 3: Changing Laser Wavelength in Interferometer-Polarimeter</h3>
+
+<p>This example can be useful for simulating different behaviors of polarimetric measurements at different values of λ. This can be easily done by changing the configuration type number in line 74 and adding another elseif condition in the InterferometerPolarimeter.m MATLAB function. The wavelength can be changed in line 84 of the main code, for example.
+The results obtained are shown in Figure 4.</p>
+
+<p align="center">
+  <img src="/assets/images/Ex3_IP.png" alt="New measurements obtained for Faraday rotation and Cotton-Mouton phase shift due to the variation of laser wavelength" width="40%" />
+</p>
+
+<h2 id="python-guide">Python Guide</h2>
+
+<p>Progresses about this guide will be released in the next future.</p>
+
+    </section>
+  </article>
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000"></a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
