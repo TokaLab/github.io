@@ -5,30 +5,30 @@ permalink: /AboutUs/
 ---
 
 ## Admin Members
-<div style="display: flex; justify-content: space-between; gap: 20px; padding: 10px 0; width: 100%;">
+<div style="display: flex; justify-content: space-around; gap: 30px; padding: 20px 0; flex-wrap: nowrap; overflow-x: auto;">
 
-  <div style="flex: 1; text-align: center;">
-    <img src="/assets/images/FotoProfiloSK.jpg" alt="Member 1" style="width: 100%; max-width: 160px;">
+  <div style="text-align: center; width: 160px;">
+    <img src="/assets/images/FotoProfiloSK.jpg" alt="KS" style="width: 100%;">
     <p>Kaldas Simone, M.Sc.<br>Mechanical Engineer</p>
   </div>
 
-  <div style="flex: 1; text-align: center;">
-    <img src="/assets/images/FotoProfiloAP.png" alt="Member 2" style="width: 100%; max-width: 160px;">
+  <div style="text-align: center; width: 160px;">
+    <img src="/assets/images/FotoProfiloAP.png" alt="PA" style="width: 100%;">
     <p>Puleio Alessandro, Ph.D.<br>Biologist</p>
   </div>
 
-  <div style="flex: 1; text-align: center;">
-     <img src="/assets/images/FotoProfiloRR.jpg" alt="Member 3" style="width: 100%; max-width: 160px;">
+  <div style="text-align: center; width: 160px;">
+    <img src="/assets/images/FotoProfiloRR.jpg" alt="RR" style="width: 100%;">
     <p>Rossi Riccardo, Ph.D.<br>Energy Engineer</p>
   </div>
 
-  <div style="flex: 1; text-align: center;">
-    <img src="/assets/images/FotoProfiloNR.png" alt="Member 4" style="width: 100%; max-width: 160px;">
+  <div style="text-align: center; width: 160px;">
+    <img src="/assets/images/FotoProfiloNR.png" alt="RN" style="width: 100%;">
     <p>Rutigliano Novella, M.Sc.<br>Mechanical Engineer</p>
   </div>
 
-  <div style="flex: 1; text-align: center;">
-    <img src="/assets/images/FotoProfiloIW.png" alt="Member 5" style="width: 100%; max-width: 160px;">
+  <div style="text-align: center; width: 160px;">
+    <img src="/assets/images/FotoProfiloIW.png" alt="WI" style="width: 100%;">
     <p>Wyss Ivan, Ph.D.<br>Energy Engineer</p>
   </div>
 
