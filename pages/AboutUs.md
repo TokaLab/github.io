@@ -6,7 +6,7 @@ permalink: /AboutUs/
 
 ## Admin Members
 
-<div style="display: flex; justify-content: center; gap: 40px; padding: 20px 0; flex-wrap: nowrap; overflow-x: auto;">
+<div style="display: flex; justify-content: center; gap: 40px; padding: 20px 40px; flex-wrap: nowrap; overflow-x: auto;">
 
   <div style="text-align: center; width: 180px;">
     <img src="/assets/images/FotoProfiloSK.jpg" alt="KS" style="width: 100%; height: 200px; object-fit: cover;">
