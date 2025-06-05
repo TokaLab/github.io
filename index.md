@@ -1,0 +1,59 @@
+---
+layout: splash
+title: "Welcome to TokaLab"
+permalink: /
+author_profile: false
+excerpt: "Your open-access gateway to the world of fusion research and education."
+---
+
+<h2>Welcome to TokaLab</h2>
+
+<p>Your open-access gateway to the world of fusion research and education. TokaLab is a virtual tokamak environment designed to facilitate synthetic experiments, enhance learning, and test numerical codes.</p>
+
+<h2>About TokaLab</h2>
+
+<p>At TokaLab, we provide you with essential tools and resources, including codes in MATLAB and Python, to explore the complexities of tokamak operations. We are committed to fostering collaboration and welcome partnerships to advance our collective understanding and capabilities. This is a passion-driven project where we work voluntarily without external funding.</p>
+
+<h2>Our Mission</h2>
+
+<p>Our mission is built on three core pillars:</p>
+
+<ul>
+  <li><strong>Education</strong>: TokaLab serves as an invaluable tool for students...</li>
+  <li><strong>Open Access</strong>: We aim to cultivate a community where ideas can be freely exchanged...</li>
+  <li><strong>Research</strong>: TokaLab provides a platform for testing and validating numerical codes...</li>
+</ul>
+
+<p>We aspire to develop this virtual environment as a comprehensive tool for computational physics and engineering.</p>
+
+<h2>Join Us</h2>
+
+<p>Join us at TokaLab and be part of a pioneering initiative to shape the future of fusion research and education.</p>
+
+<hr style="margin: 2rem 0;">
+
+<div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+  <div>
+    <a href="/SimPla/" style="text-align: center; text-decoration: none;">
+      <img src="/assets/images/Equi_New.png" alt="SimPla Icon" style="width: 300px; height: 300px; object-fit: contain; border-radius: 8px;">
+      <h3>SimPla</h3>
+      <p style="font-size: 0.9rem; color: #555;">To simulate your plasma equilibrium.</p>
+    </a>
+  </div>
+
+  <div>
+    <a href="/SynDiag/" style="text-align: center; text-decoration: none;">
+      <img src="/assets/images/SynDiag.png" alt="SynDiag Icon" style="width: 300px; height: 300px; object-fit: contain; border-radius: 8px;">
+      <h3>SynDiag</h3>
+      <p style="font-size: 0.9rem; color: #555;">To design your diagnostics.</p>
+    </a>
+  </div>
+
+  <div>
+    <a href="/VirtualLab/" style="text-align: center; text-decoration: none;">
+      <img src="/assets/images/G3_zoom1.png" alt="VirtualLab Icon" style="width: 300px; height: 300px; object-fit: cover; border-radius: 8px;">
+      <h3>VirtualLab</h3>
+      <p style="font-size: 0.9rem; color: #555;">To conduct your experiment.</p>
+    </a>
+  </div>
+</div>

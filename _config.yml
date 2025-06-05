@@ -1,0 +1,10 @@
+title: "TokaLab"
+description: "Open-access fusion research platform"
+baseurl: "" 
+url: "https://tokalab.github.io"
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-include-cache
+
+logo: /assets/images/logo.png
