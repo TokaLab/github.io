@@ -4,6 +4,8 @@ main:
     url: /Documentation/
   - title: "Publications"
     url: /Publications/
+  - title: "Collaborate"
+    url: /Collaborate/ 
   - title: "About Us"
     url: /AboutUs/
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
