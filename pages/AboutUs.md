@@ -1,7 +1,7 @@
 ---
 layout: single
 title: About Us
-permalink: /About Us/
+permalink: /AboutUs/
 ---
 
 ## Admin Members
@@ -9,8 +9,8 @@ permalink: /About Us/
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
 
 <div style="text-align: center;">
-  <img src="/path/to/image1.jpg" alt="Member 1" style="width:100%;">
-  <p>Member 1</p>
+  <img src="/assets/images/FotoProfilo01.jpg" alt="Member 1" style="width:100%;">
+  <p>Riccardo Rossi<br>Energy Engineer</p>
 </div>
 
 <div style="text-align: center;">
