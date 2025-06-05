@@ -8,7 +8,7 @@ permalink: /AboutUs/
 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: nowrap; overflow-x: auto; padding: 10px;">
 
   <div style="text-align: center;">
-    <img src="/assets/images/FotoProfiloSK.png" alt="Member 1" style="width:150px;">
+    <img src="/assets/images/FotoProfiloSK.jpg" alt="Member 1" style="width:150px;">
     <p>Kaldas Simone, M.Sc.<br>Mechanical Engineer</p>
   </div>
 
