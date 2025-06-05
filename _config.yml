@@ -1,0 +1,13 @@
+title: ""  # Vuoto per non mostrare testo accanto al logo
+description: "Open-access fusion research platform"
+baseurl: ""  # Corretto per GitHub Pages su tokalab.github.io
+url: "https://tokalab.github.io"
+theme: minimal-mistakes-jekyll
+
+logo: /assets/images/Banner2_opzione1.png
+
+# Tema grafico
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-include-cache
