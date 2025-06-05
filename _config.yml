@@ -1,14 +1,27 @@
-<script>
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', '{{ site.analytics.google.tracking_id }}']);
-  {% if site.analytics.google.anonymize_ip == true %}
-    _gaq.push(['_gat._anonymizeIp']);
-  {% endif %}
-  _gaq.push(['_trackPageview']);
+title: ""
+description: "Open-access fusion research platform"
+baseurl: ""  # Vuoto per GitHub Pages su dominio user.github.io
+url: "https://tokalab.github.io"
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+# Percorso locale al logo (deve esistere nella cartella /assets/images)
+logo: /assets/images/logo.png
+
+# Disabilita il tema remoto o installato via gem
+theme: null
+
+# Abilita plugin consentiti da GitHub Pages
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-archives
+
+# Skin (opzionale, cambia lo stile generale del sito)
+minimal_mistakes_skin: "default"
+
+# Navigation (se usi _data/navigation.yml)
+navigation:
+  enabled: true
+  style: "overlay"
