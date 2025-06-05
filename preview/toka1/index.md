@@ -1,5 +1,6 @@
 ---
 layout: splash
+title: "TokaLab Preview 1"
 permalink: /preview/toka1/
 author_profile: false
 header:
@@ -73,5 +74,3 @@ header:
 </div>
 
 </div>
-
-
