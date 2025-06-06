@@ -48,11 +48,6 @@ layout: none
     
 <!-- other things -->
     
-    <div class="initial-content">
-      {{ content }}
-      {% include after-content.html %}
-    </div>
-
     {% if site.search == true %}
       <div class="search-content">
         {% include_cached search/search_form.html %}
