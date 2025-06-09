@@ -10,4 +10,4 @@ TokaLab is an initiative focused on developing modular tools for simulating vari
 
 Below is a list of available modules, each with links to their respective documentation.
 
-[SimPla - Simulated Plasma](/pages/SimPla/SimPla_main.md)
+[SimPla - Simulated Plasma](/pages/SimPla/SimPla_main)
