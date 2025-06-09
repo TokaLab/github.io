@@ -17,14 +17,35 @@ main:
   #   url: /sitemap/
 
 docs:
+  - title: "VirtualLab"
+    children:
+      - title: "Overview"
+        url: /VirtualLab_Overview/
+        
   - title: "SimPla"
     children:
       - title: "Overview"
-        url: /docs/SimPla/SimPla_Overview/
+        url: /SimPla_Overview/
+      - title: "Tokamak"
+        url: /SimPla/Tokamak/
+      - title: "Geometry"
+        url: /SimPla/Geometry/
+      - title: "Equilibrium"
+        url: /SimPla/Equilibrium/
 
   - title: "SynDiag"
     children:
       - title: "Overview"
-        url: /docs/SynDiag/SynDiag_Overview
+        url: /SynDiag_Overview/
       - title: "Pick Up Coils"
-        url: /docs/SynDiag/PickUpCoils
+        url: /SynDiag/PickUpCoils
+      - title: "Saddle Coils"
+        url: /SynDiag/SaddleCoils
+      - title: "Flux Loops"
+        url: /SynDiag/FluxLoops
+      - title: "Thomson Scattering"
+        url: /SynDiag/ThomsonScattering
+
+
+
+        
