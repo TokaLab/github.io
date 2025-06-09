@@ -3,6 +3,8 @@ layout: splash
 title: SynDiag - Simulated Plasma
 math: true
 permalink: /SynDiag_Overview/
+sidebar: 
+  nav:  "docs"
 ---
 
 <script type="text/javascript" async
