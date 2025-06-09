@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: SynDiag - Simulated Plasma
 math: true
 permalink: /SynDiag_Overview/
