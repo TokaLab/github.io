@@ -3,6 +3,8 @@ layout: splash
 title: VirtualLab
 math: true
 permalink: /VirtualLab_Overview/
+sidebar: 
+  nav:  "docs"
 ---
 
 <script type="text/javascript" async
