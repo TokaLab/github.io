@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: VirtualLab
 math: true
 permalink: /VirtualLab_Overview/
