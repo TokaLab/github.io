@@ -2,7 +2,7 @@
 layout: single
 title: SimPla - Tokamak
 math: true
-permalink: /SimPla_tokamak/
+permalink: /SimPla/Tokamak/
 sidebar: 
   nav:  "docs"
 ---
