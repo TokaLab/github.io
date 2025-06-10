@@ -2,7 +2,7 @@
 layout: single
 title: SynDiag - Simulated Plasma
 math: true
-permalink: /SynDiag_Overview/
+permalink: /SynDiag/Overview/
 sidebar: 
   nav:  "docs"
 ---
