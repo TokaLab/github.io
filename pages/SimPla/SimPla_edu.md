@@ -2,7 +2,7 @@
 layout: splash
 title: SimPla - Simulated Plasma
 math: true
-permalink: /SimPla/
+permalink: /SimPla_edu/
 ---
 
 <script type="text/javascript" async
