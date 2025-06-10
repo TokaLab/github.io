@@ -16,7 +16,7 @@ sidebar:
 
 **SimPla (Simulated Plasma)** is a module designed to reconstruct plasma equilibrium given a target separatrix and various hyperparameters. It enables detailed modelling of tokamak plasma behaviour through a structured and modular approach.
 
-The module is written in both MATLAB and Python. Moreover, a MATLAB non-object oriented version, usefull for students working for the first time with MATLAB, can be found [here](/SimPla_edu/). 
+The module is written in both MATLAB and Python. Moreover, a MATLAB non-object oriented version, usefull for students working for the first time with MATLAB, can be found [here](/SimPla/SimPla_edu/). 
 
 The module is composed of three main classes:
 
