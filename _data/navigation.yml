@@ -32,6 +32,10 @@ docs:
         url: /SimPla/Geometry/
       - title: "Equilibrium"
         url: /SimPla/Equilibrium/
+      - title: "Other Classes"
+        url: /SimPla/Others/
+      - title: "MATLAB_edu version: guide"
+        url: /SimPla/SimPla_edu/
 
   - title: "SynDiag"
     children:
