@@ -6,11 +6,15 @@ permalink: /AboutUs/
 
 ## TokaLab Team
 
-<div class="wrapper">
-  <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px;">
-
+<div class="page__content">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 20px;">
+    
    <div style="text-align: center;">
-    <img src="/assets/images/FotoProfiloSK.jpg" alt="KS" style="width: 100%; height: 200px; object-fit: cover;">
+    <img src="/assets/images/FotoProfiloSK.jpg" 
+         alt="KS" 
+         style="width: 100%; height: 200px; object-fit: cover;"
+         onmouseover="this.style.transform='scale(1.05)';"
+         onmouseout="this.style.transform='scale(1)';">
     <p>Simone Kaldas<br>(Admin)</p> 
   </div>
 
