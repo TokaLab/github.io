@@ -29,6 +29,6 @@ Moreover, SimPla uses other classes automatically uploaded in the **equilibrium*
 Together, these classes provide a comprehensive framework to simulate and study plasma equilibria in tokamak devices.
 
 
-
+<p style="color:red;"><strong>⚠️ This documentation is still a work in progress. There may be errors or inaccuracies. Please feel free to contact us if you notice any issues.</strong></p>
 
 

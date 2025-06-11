@@ -68,3 +68,5 @@ Defines a sparse boundary operator matrix identifying grid points on the edge of
 ### Summary
 
 The `geometry` class is a foundational part of the SimPla framework, setting up the computational domain with high flexibility. It ensures consistent treatment of the physical layout and provides utility tools for enforcing boundary conditions and geometric masking.
+
+<p style="color:red;"><strong>⚠️ This documentation is still a work in progress. There may be errors or inaccuracies. Please feel free to contact us if you notice any issues.</strong></p>

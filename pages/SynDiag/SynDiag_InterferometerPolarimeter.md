@@ -1,6 +1,6 @@
 ---
 layout: single
-title: SynDiag - Synthetic Diagnostics
+title: SynDiag - Simulated Plasma
 math: true
 permalink: /SynDiag/Overview/
 sidebar: 
@@ -26,40 +26,5 @@ The module consists of classes representing the following diagnostics:
 
 Each class encapsulates the physics and signal processing relevant to its respective diagnostic, allowing for comprehensive synthetic diagnostic simulations within the tokamak environment.
 
-## Folder Structure and Customization
-
-To maintain modularity and clarity, diagnostic classes must be placed within specific folders according to the machine design:
-
-
-If you are using the tokamak **Tokalab**, all diagnostic classes should be stored in the following folder: /diagnostics/Tokalab/
-
-If you are designing a new tokamak **NewMachine**, you need to create a new folder: /diagnostics/NewMachine/ and create your diagnostics for your tokamak. 
-
-## Adapting Tokalab Diagnostics for Other Machines
-
-To develop diagnostics for a different machine, you can use the existing Tokalab diagnostic scripts as a template:
-
-1. **Copy** the desired diagnostic class (e.g., `Diag_PickUpCoils.m`) from `diagnostics/TokaLab/` to your machine's folder (`diagnostics/NewMachine/`).
-2. **Modify** only the geometry- and machine-specific parameters, such as:
-   - Measurement locations (`R`, `Z`)
-   - Coil orientations or loop endpoints
-   - Noise levels or configuration behavior
-3. **Keep** the measurement logic unchanged unless your diagnostic model is fundamentally different.
-
-This modular design encourages code reuse while allowing flexibility for different experimental setups.
-
----
-
-## Example
-
-To simulate pick-up coil measurements for a machine called `NewMachine`, you would:
-
-- Create a folder: `diagnostics/NewMachine/`
-- Copy `Diag_PickUpCoils.m` from `TokaLab/` to `NewMachine/`
-- Adjust the `Upload` method to load your machine’s coil positions and noise settings
-
-
 <p style="color:red;"><strong>⚠️ This documentation is still a work in progress. There may be errors or inaccuracies. Please feel free to contact us if you notice any issues.</strong></p>
-
-
 
