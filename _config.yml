@@ -4,7 +4,7 @@ baseurl: ""  # Vuoto per GitHub Pages su dominio user.github.io
 url: "https://tokalab.github.io"
 
 # Percorso locale al logo (deve esistere nella cartella /assets/images)
-logo: /assets/images/Logo.png
+logo: /assets/images/Logo/Logo.png
 
 # Disabilita il tema remoto o installato via gem
 theme: null

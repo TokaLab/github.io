@@ -18,7 +18,7 @@ The code "Main_Diagnostics.mat" allows for the design of the diagnostics setup. 
 The standard configuration is shown in Figure 1.
 
 <p align="center">
-  <img src="{{ '/assets/images/Ex0.png' | relative_url }}" alt="Standard TokaLab Diagnostics setup" width="60%"/>
+  <img src="{{ '/assets/images/SynDiag_edu/Ex0.png' | relative_url }}" alt="Standard TokaLab Diagnostics setup" width="60%"/>
 </p>
 
 The configuration provided by TokaLab is denoted as "Configuration 1." It is characterized by the quantities shown in Figure 1, where each measurement is Gaussian distributed with noise having a standard deviation of 10% of the standard deviation of measurements of the same kind (but ideal values are always accessible in the "ideal" substructure of each diagnostic structure). Each user can add their own configuration by varying the number of diagnostics, their location, and their measurement uncertainty.
@@ -33,7 +33,7 @@ All the following examples relate to the use of noisy measurements.
 Modifying Pick-Up coils location and orientation can be done by loading a file that simply contains information on R, z, and the poloidal angle in the same format provided through the standard configuration setting of the pick-up coils (a horizontal vector for R, a horizontal vector for Z, and a 3 x i matrix, with i = number of pick-up coils, indicating the components of the unit vector describing the coil orientation). In our case we used a MATLAB file, but a .txt or other format can be used by just modifying the loading function in line 6 of PickUpCoils.m (and the same for FluxLoops.m and SaddleLoops.m). An example of the new configuration obtained is shown in Figure 2.
 
 <p align="center">
-  <img src="{{ '/assets/images/Ex1_M.png' | relative_url }}" alt="New configuration of Pick-up Coils setup. It has been changed the position and orientation of each coil. On the right, measurement values are reported" width="40%"/>
+  <img src="{{ '/assets/images/SynDiag_edu/Ex1_M.png' | relative_url }}" alt="New configuration of Pick-up Coils setup. It has been changed the position and orientation of each coil. On the right, measurement values are reported" width="40%"/>
 </p>
 
 ### EXAMPLE 2: Modelling a vertical Thomson Scattering
@@ -42,7 +42,7 @@ In this case, a vertical Thomson Scattering has been simulated by simply changin
 The results obtained for the selected coordinates are shown in Figure 3.
 
 <p align="center">
-  <img src="{{ '/assets/images/Ex2_TS.png' | relative_url }}" alt="Vertical Configuration of the Thomson Scattering" width="40%"/>
+  <img src="{{ '/assets/images/SynDiag_edu/Ex2_TS.png' | relative_url }}" alt="Vertical Configuration of the Thomson Scattering" width="40%"/>
 </p>
 
 ### EXAMPLE 3: Changing Laser Wavelength in Interferometer-Polarimeter
@@ -51,7 +51,7 @@ This example can be useful for simulating different behaviors of polarimetric me
 The results obtained are shown in Figure 4.
 
 <p align="center">
-  <img src="{{ '/assets/images/Ex3_IP.png' | relative_url}}" alt="New measurements obtained for Faraday rotation and Cotton-Mouton phase shift due to the variation of laser wavelength" width="40%"/>
+  <img src="{{ '/assets/images/SynDiag_edu/Ex3_IP.png' | relative_url}}" alt="New measurements obtained for Faraday rotation and Cotton-Mouton phase shift due to the variation of laser wavelength" width="40%"/>
 </p>
 
 ## Python Guide
