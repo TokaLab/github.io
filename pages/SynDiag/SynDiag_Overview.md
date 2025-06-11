@@ -2,7 +2,7 @@
 layout: single
 title: SynDiag - Synthetic Diagnostics
 math: true
-permalink: /SynDiag/Overview/
+permalink: /SynDiag_Overview/
 sidebar: 
   nav:  "docs"
 ---

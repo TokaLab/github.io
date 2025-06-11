@@ -2,7 +2,7 @@
 layout: single
 title: SimPla - Simulated Plasma
 math: true
-permalink: /SimPla/Overview/
+permalink: /SimPla_Overview/
 sidebar: 
   nav:  "docs"
 ---
