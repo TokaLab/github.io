@@ -12,29 +12,35 @@ permalink: /AboutUs/
    <div style="text-align: center;">
     <img src="/assets/images/FotoProfiloSK.jpg" 
          alt="KS" 
-         style="width: 100%; height: 200px; object-fit: cover;"
-         onmouseover="this.style.transform='scale(1.05)';"
-         onmouseout="this.style.transform='scale(1)';">
+         style="width: 100%; height: 200px; object-fit: cover;">
     <p>Simone Kaldas<br>(Admin)</p> 
   </div>
 
   <div style="text-align: center;">
-    <img src="/assets/images/FotoProfiloAP.png" alt="PA" style="width: 100%; height: 200px; object-fit: cover;">
+    <img src="/assets/images/FotoProfiloAP.png" 
+         alt="PA" 
+         style="width: 100%; height: 200px; object-fit: cover;">
     <p>Alessandro Puleio<br>(Admin)</p> 
   </div>
 
   <div style="text-align: center;">
-    <img src="/assets/images/FotoProfiloRR.jpg" alt="RR" style="width: 100%; height: 200px; object-fit: cover;">
+    <img src="/assets/images/FotoProfiloRR.jpg" 
+         alt="RR" 
+         style="width: 100%; height: 200px; object-fit: cover;">
     <p>Riccardo Rossi<br>(Admin)</p> 
   </div>
 
   <div style="text-align: center;">
-    <img src="/assets/images/FotoProfiloNR.png" alt="RN" style="width: 100%; height: 200px; object-fit: cover;">
+    <img src="/assets/images/FotoProfiloNR.png" 
+         alt="RN" 
+         style="width: 100%; height: 200px; object-fit: cover;">
     <p>Novella Rutigliano<br>(Admin)</p>
   </div>
 
   <div style="text-align: center;">
-    <img src="/assets/images/FotoProfiloIW.jpg" alt="WI" style="width: 100%; height: 200px; object-fit: cover;">
+    <img src="/assets/images/FotoProfiloIW.jpg" 
+         alt="WI" 
+         style="width: 100%; height: 200px; object-fit: cover;">
     <p>Ivan Wyss<br>(Admin)</p>
   </div>
 
