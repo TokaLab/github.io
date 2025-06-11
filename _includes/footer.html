@@ -1,5 +1,6 @@
-<div class="page__footer-follow">
-  <ul class="social-icons">
+<div class="page__footer-follow" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+  <!-- Sinistra: Feed + Social -->
+  <ul class="social-icons" style="margin: 0;">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
@@ -13,10 +14,13 @@
     {% endif %}
 
     {% unless site.atom_feed.hide %}
-      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed | default: "Feed" }}</a></li>
     {% endunless %}
-    <li><a href="mailto:tokalab.fusion@gmail.com"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> tokalab.fusion@gmail.com</a></li>
   </ul>
-</div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+  <!-- Destra: Email -->
+  <div style="text-align: right;">
+    <p style="margin: 0; font-weight: bold;">To contact:</p>
+    <p style="margin: 0;"><a href="mailto:tokalab.fusion@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> tokalab.fusion@gmail.com</a></p>
+  </div>
+</div>
