@@ -34,7 +34,7 @@ docs:
         url: /SimPla/Equilibrium/
       - title: "Other Classes"
         url: /SimPla/Others/
-      - title: "MATLAB_edu version: guide"
+      - title: "MATLAB_edu"
         url: /SimPla/SimPla_edu/
 
   - title: "SynDiag"
@@ -49,6 +49,8 @@ docs:
         url: /SynDiag/FluxLoops/
       - title: "Thomson Scattering"
         url: /SynDiag/ThomsonScattering/
+      - title: "MATLAB_edu"
+        url: /SynDiag/SynDiag_edu/
 
 
 
