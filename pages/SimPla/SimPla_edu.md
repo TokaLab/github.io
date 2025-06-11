@@ -3,6 +3,8 @@ layout: single
 title: SimPla - Simulated Plasma
 math: true
 permalink: /SimPla/SimPla_edu/
+sidebar: 
+  nav:  "docs"
 ---
 
 <script type="text/javascript" async
