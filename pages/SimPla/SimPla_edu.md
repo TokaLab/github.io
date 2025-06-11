@@ -2,16 +2,17 @@
 layout: splash
 title: SimPla - Simulated Plasma
 math: true
-permalink: /SimPla_edu/
+permalink: /SimPla/SimPla_edu/
 ---
 
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
-# SimPla - Simulated Plasma
+# SimPla - Simulated Plasma using MATLAB_edu module
 
-SimPla is a tool for simulating plasma behavour using a single-fluid model in a tokamak, for example to solve a plasma equilibrium problem.
+SimPla is a tool for simulating plasma behaviour using a single-fluid model in a tokamak, for example to solve a plasma equilibrium problem.
+In this page, a brief description to explain how to use the MATLAB_edu version, developed using a non-object oriented framework, is presented. Please note that this version is though for students approaching to plasma equilibrium, while the object oriented framework (MATLAB or Python versions) are more flexible and well-structured.
 
 ## MATLAB Guide
 

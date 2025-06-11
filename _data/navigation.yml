@@ -20,23 +20,27 @@ docs:
   - title: "VirtualLab"
     children:
       - title: "Overview"
-        url: /VirtualLab_Overview/
+        url: /VirtualLab/Overview/
         
   - title: "SimPla"
     children:
       - title: "Overview"
-        url: /SimPla_Overview/
+        url: /SimPla/Overview/
       - title: "Tokamak"
         url: /SimPla/Tokamak/
       - title: "Geometry"
         url: /SimPla/Geometry/
       - title: "Equilibrium"
         url: /SimPla/Equilibrium/
+      - title: "Other Classes"
+        url: /SimPla/Others/
+      - title: "MATLAB_edu version: guide"
+        url: /SimPla/SimPla_edu/
 
   - title: "SynDiag"
     children:
       - title: "Overview"
-        url: /SynDiag_Overview/
+        url: /SynDiag/Overview/
       - title: "Pick Up Coils"
         url: /SynDiag/PickUpCoils
       - title: "Saddle Coils"
