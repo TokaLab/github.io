@@ -4,7 +4,7 @@ title: About Us
 permalink: /AboutUs/
 ---
 
-## Admin Team
+## TokaLab Team
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; padding: 20px 40px;">
 
@@ -32,8 +32,6 @@ permalink: /AboutUs/
     <img src="/assets/images/FotoProfiloIW.jpg" alt="WI" style="width: 100%; height: 200px; object-fit: cover;">
     <p>Wyss Ivan<br>(Admin)</p>
   </div>
-
-</div>
 
 ## Active Collaboration Members
 
