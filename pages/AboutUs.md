@@ -4,33 +4,33 @@ title: About Us
 permalink: /AboutUs/
 ---
 
-## Admin Members
+## Admin Team
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; padding: 20px 40px;">
 
   <div style="text-align: center; flex: 1 1 180px; max-width: 180px;">
     <img src="/assets/images/FotoProfiloSK.jpg" alt="KS" style="width: 100%; height: 200px; object-fit: cover;">
-    <p>Kaldas Simone, M.Sc.<br>Mechanical Engineer</p> 
+    <p>Kaldas Simone<br>(Admin)</p> 
   </div>
 
   <div style="text-align: center; flex: 1 1 180px; max-width: 180px;">
     <img src="/assets/images/FotoProfiloAP.png" alt="PA" style="width: 100%; height: 200px; object-fit: cover;">
-    <p>Puleio Alessandro, Ph.D.<br>Biologist</p> 
+    <p>Puleio Alessandro<br>(Admin)</p> 
   </div>
 
   <div style="text-align: center; flex: 1 1 180px; max-width: 180px;">
     <img src="/assets/images/FotoProfiloRR.jpg" alt="RR" style="width: 100%; height: 200px; object-fit: cover;">
-    <p>Rossi Riccardo, Ph.D.<br>Energy Engineer</p> 
+    <p>Rossi Riccardo<br>(Admin)</p> 
   </div>
 
   <div style="text-align: center; flex: 1 1 180px; max-width: 180px;">
     <img src="/assets/images/FotoProfiloNR.png" alt="RN" style="width: 100%; height: 200px; object-fit: cover;">
-    <p>Rutigliano Novella, M.Sc.<br>Mechanical Engineer</p>
+    <p>Rutigliano Novella<br>(Admin)</p>
   </div>
 
   <div style="text-align: center; flex: 1 1 180px; max-width: 180px;">
     <img src="/assets/images/FotoProfiloIW.png" alt="WI" style="width: 100%; height: 200px; object-fit: cover;">
-    <p>Wyss Ivan, Ph.D.<br>Energy Engineer</p>
+    <p>Wyss Ivan<br>(Admin)</p>
   </div>
 
 </div>
