@@ -21,4 +21,9 @@ Feel free to use the tools we've developed. All we ask is that you spread the wo
 # Wish List.
 What features or improvements would make our project more useful? Share your ideas and suggestions on what you would like us to implement and where you think we should focus our efforts.
 
+---
 
+## Contact Us
+
+If you’re interested in collaborating or have any questions, feel free to reach out to us via email:  
+[**tokalab.fusion@gmail.com **](mailto:tokalab.fusion@gmail.com)
