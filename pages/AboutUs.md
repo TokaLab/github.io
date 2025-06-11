@@ -29,7 +29,7 @@ permalink: /AboutUs/
   </div>
 
   <div style="text-align: center; flex: 1 1 180px; max-width: 180px;">
-    <img src="/assets/images/FotoProfiloIW.png" alt="WI" style="width: 100%; height: 200px; object-fit: cover;">
+    <img src="/assets/images/FotoProfiloIW.jpg" alt="WI" style="width: 100%; height: 200px; object-fit: cover;">
     <p>Wyss Ivan<br>(Admin)</p>
   </div>
 
