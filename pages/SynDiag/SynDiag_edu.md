@@ -3,6 +3,8 @@ layout: single
 title: SynDiag - Synthetic Diagnostics
 math: true
 permalink: /SynDiag/SynDiag_edu
+sidebar: 
+  nav:  "docs"
 ---
 
 # SynDiag - Synthetic Diagnostics using MATLAB_edu module
