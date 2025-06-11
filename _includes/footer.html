@@ -1,3 +1,4 @@
+<!-- Blocco superiore: social + feed + contatto -->
 <div class="page__footer-follow" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
   <!-- Sinistra: Feed + Social -->
   <ul class="social-icons" style="margin: 0;">
@@ -23,4 +24,12 @@
     <p style="margin: 0; font-weight: bold;">To contact:</p>
     <p style="margin: 0;"><a href="mailto:tokalab.fusion@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> tokalab.fusion@gmail.com</a></p>
   </div>
+</div>
+
+<!-- Blocco inferiore: copyright -->
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a>.
+  {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
+  <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp;
+  <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.
 </div>
